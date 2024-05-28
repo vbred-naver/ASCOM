@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <executable name="dist/default/production/Focuser_1.1.X.production.elf">
+    <memory name="data">
+      <units>bytes</units>
+      <length>1024</length>
+      <used>180</used>
+      <free>844</free>
+    </memory>
+    <memory name="program">
+      <units>bytes</units>
+      <length>11520</length>
+      <used>8205</used>
+      <free>3315</free>
+    </memory>
+  </executable>
+</project>
