@@ -64,7 +64,7 @@ namespace ASCOM.NoBrand.Focuser
         private bool disposedValue;
         readonly string name = "NBF-H1";
         readonly string busyName = "NINA wait";
-        private bool busy = false;  // NINA command overrun ÁøÁ¤½ÃÅ°±â(log¿¡ busy_name À¸·Î Ç¥½ÃµÊ)
+        private bool busy = false;  // NINA command overrun ì§„ì •ì‹œí‚¤ê¸°(logì— busy_name ìœ¼ë¡œ í‘œì‹œë¨)
 
 
 #if SERIAL
@@ -401,7 +401,7 @@ namespace ASCOM.NoBrand.Focuser
                 LogMessage("CommandString", $"Command: {command}");
 
                 string rDataTmp = "";
-                string rData = " ";                         // null ¾Æ´Ô
+                string rData = " ";                         // null ì•„ë‹˜
                 uint numBytesRead = 0;
                 uint numBytesAvailable = 1;                      // 1 byte
                 mFtdiDevice.SetTimeouts(rwTimeout, 0);
@@ -512,7 +512,7 @@ namespace ASCOM.NoBrand.Focuser
                         else
                         {
                             connectedState = false;
-                            throw new Exception("USB Æ÷Æ®¸¦ ¿¬°áÇÒ ¼ö ¾ø½À´Ï´Ù");
+                            throw new Exception("USB í¬íŠ¸ë¥¼ ì—°ê²°í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤");
                         }
 #endif
                         FocuserHardware.Connected = connectedState;
@@ -683,14 +683,13 @@ namespace ASCOM.NoBrand.Focuser
                     {
                         if (Properties.Settings.Default.ResetPosition) CommandBlind("AY#", true);    // Absolute, AY, Reset
                         else CommandBlind("AS#", true);                                              // Absolute, AS
-                        Properties.Settings.Default.ResetPosition = false;
                     }
                     else
                     {
                         if (Properties.Settings.Default.ResetPosition) CommandBlind("AX#", true);    // Relative, AX. Reset
                         else CommandBlind("AC#", true);                                              // Relative, AC
-                        Properties.Settings.Default.ResetPosition = false;
                     }
+                    Properties.Settings.Default.ResetPosition = false;
                     LogMessage("Absolute", $"{absolute}");
                     busy = false;
                     return absolute;
@@ -955,8 +954,8 @@ namespace ASCOM.NoBrand.Focuser
         }
 
         /// <summary>
-        /// TempComp¸¦ True·Î ¼³Á¤ÇÏ¸é Æ÷Ä¿¼­´Â ¿Âµµ ÃßÀû ¸ğµå·Î ÀüÈ¯µË´Ï´Ù. False·Î ¼³Á¤ÇÏ¸é ¿Âµµ ÃßÀûÀÌ ²¨Áı´Ï´Ù.
-        /// False ÀÎ °æ¿ì TempCompAvailableÀÌ ¼Ó¼ºÀº Ç×»ó False¸¦ ¹İÈ¯ÇÕ´Ï´Ù.
+        /// TempCompë¥¼ Trueë¡œ ì„¤ì •í•˜ë©´ í¬ì»¤ì„œëŠ” ì˜¨ë„ ì¶”ì  ëª¨ë“œë¡œ ì „í™˜ë©ë‹ˆë‹¤. Falseë¡œ ì„¤ì •í•˜ë©´ ì˜¨ë„ ì¶”ì ì´ êº¼ì§‘ë‹ˆë‹¤.
+        /// False ì¸ ê²½ìš° TempCompAvailableì´ ì†ì„±ì€ í•­ìƒ Falseë¥¼ ë°˜í™˜í•©ë‹ˆë‹¤.
         /// </summary>
         public bool TempComp
         {
@@ -1025,7 +1024,7 @@ namespace ASCOM.NoBrand.Focuser
         }
 
         /// <summary>
-        /// TempComp°¡ False ÀÎ °æ¿ì TempCompAvailableÀÌ ¼Ó¼ºÀº Ç×»ó False¸¦ ¹İÈ¯ÇÕ´Ï´Ù.
+        /// TempCompê°€ False ì¸ ê²½ìš° TempCompAvailableì´ ì†ì„±ì€ í•­ìƒ Falseë¥¼ ë°˜í™˜í•©ë‹ˆë‹¤.
         /// </summary>
         public bool TempCompAvailable
         {
@@ -1121,7 +1120,7 @@ namespace ASCOM.NoBrand.Focuser
             }
 
             // Write to the common hardware log shared by all running instances of the driver.
-            // ·Î±× ºĞ¸®
+            // ë¡œê·¸ ë¶„ë¦¬
             // FocuserHardware.LogMessage(identifier, message); // Write to the local server logger
         }
 
