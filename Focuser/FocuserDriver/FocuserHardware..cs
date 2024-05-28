@@ -110,6 +110,7 @@ namespace ASCOM.NoBrand.Focuser
 
                 LogMessage("InitialiseHardware", $"One-off initialisation complete.");
                 runOnce = true; // Set the flag to ensure that this code is not run again
+                Properties.Settings.Default.ResetPosition = false;
             }
         }
 
