@@ -191,7 +191,6 @@ namespace ASCOM.NoBrand.Focuser
             txtStepSize.Text = Properties.Settings.Default.StepSize;
             ChkTempComp.Checked = Properties.Settings.Default.TempComp;
             ChkTempProbe.Checked = Properties.Settings.Default.TempProbe;
-            chkReset.Checked = Properties.Settings.Default.ResetPosition;
         }
 
         private void SetupDialogForm_Load(object sender, EventArgs e)
