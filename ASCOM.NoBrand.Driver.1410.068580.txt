@@ -1,0 +1,184 @@
+14:10:06.858 Focuser                   Starting driver initialisation
+14:10:06.858 Focuser                   ProgID: ASCOM.NoBrand.Focuser, Description: NoBrand Focuser
+14:10:06.858 Focuser                   Completed initialisation
+14:10:06.859 InterfaceVersion          3
+14:10:06.877 Connected Set             Connecting to device
+14:10:06.879 CommandBlind              Command: MS5000#
+14:10:06.880 CommandBlind              Command: AS#
+14:10:06.880 Absolute                  True
+14:10:06.882 CommandString             Command: IS#
+14:10:06.919 IsMoving                  False(0#)
+14:10:06.927 Description               R200SS:DU99ZD22
+14:10:06.927 CommandString             Command: PO#
+14:10:06.964 DriverInfo                1.1
+14:10:06.966 DriverVersion             6.6
+14:10:06.967 NINA wait                 
+14:10:06.980 NINA wait                 
+14:10:06.980 Position                  846(846#)
+14:10:06.981 CommandBlind              Command: SS5#
+14:10:06.982 TempCompAvailable         True
+14:10:06.984 CommandString             Command: TG#
+14:10:06.995 NINA wait                 
+14:10:07.010 NINA wait                 
+14:10:07.010 TempCompAvailable         False(0#)
+14:10:07.011 CommandString             Command: TE#
+14:10:07.025 NINA wait                 
+14:10:07.041 NINA wait                 
+14:10:07.057 NINA wait                 
+14:10:07.071 NINA wait                 
+14:10:07.071 Temperature               27.4(27.4#)
+14:10:07.072 SupportedActions          Returning 0 actions.
+14:10:07.086 CommandBlind              Command: MI5000#
+14:10:07.086 Description               R200SS:DU99ZD22
+14:10:07.086 DriverInfo                1.1
+14:10:07.086 DriverVersion             6.6
+14:10:07.086 CommandString             Command: PO#
+14:10:07.102 NINA wait                 
+14:10:07.117 NINA wait                 
+14:10:07.132 NINA wait                 
+14:10:07.132 Position                  846(846#)
+14:10:07.132 DriverVersion             6.6
+14:10:07.132 CommandString             Command: IS#
+14:10:07.146 NINA wait                 
+14:10:07.161 NINA wait                 
+14:10:07.161 IsMoving                  False(0#)
+14:10:07.161 TempCompAvailable         True
+14:10:07.161 CommandString             Command: TG#
+14:10:07.176 NINA wait                 
+14:10:07.191 NINA wait                 
+14:10:07.191 TempCompAvailable         False(0#)
+14:10:07.207 CommandBlind              Command: MS5000#
+14:10:07.263 TempCompAvailable         True
+14:10:09.088 CommandString             Command: PO#
+14:10:09.133 Position                  846(846#)
+14:10:09.134 CommandString             Command: TE#
+14:10:09.209 Temperature               27.5(27.5#)
+14:10:09.210 CommandString             Command: IS#
+14:10:09.240 IsMoving                  False(0#)
+14:10:09.241 TempCompAvailable         True
+14:10:09.241 CommandString             Command: TG#
+14:10:09.270 TempCompAvailable         False(0#)
+14:10:11.091 CommandString             Command: PO#
+14:10:11.135 Position                  846(846#)
+14:10:11.136 CommandString             Command: TE#
+14:10:11.196 Temperature               27.5(27.5#)
+14:10:11.197 CommandString             Command: IS#
+14:10:11.226 IsMoving                  False(0#)
+14:10:11.227 TempCompAvailable         True
+14:10:11.228 CommandString             Command: TG#
+14:10:11.257 TempCompAvailable         False(0#)
+14:10:13.091 CommandString             Command: PO#
+14:10:13.143 Position                  846(846#)
+14:10:13.144 CommandString             Command: TE#
+14:10:13.220 Temperature               27.4(27.4#)
+14:10:13.221 CommandString             Command: IS#
+14:10:13.250 IsMoving                  False(0#)
+14:10:13.251 TempCompAvailable         True
+14:10:13.251 CommandString             Command: TG#
+14:10:13.275 TempCompAvailable         False(0#)
+14:10:15.086 CommandBlind              Command: MS5000#
+14:10:15.087 TempCompAvailable         True
+14:10:15.087 CommandString             Command: TG#
+14:10:15.089 NINA wait                 
+14:10:15.095 NINA wait                 
+14:10:15.110 NINA wait                 
+14:10:15.125 NINA wait                 
+14:10:15.125 TempCompAvailable         False(0#)
+14:10:15.140 CommandString             Command: PO#
+14:10:15.186 Position                  846(846#)
+14:10:15.187 CommandString             Command: TE#
+14:10:15.188 NINA wait                 
+14:10:15.202 NINA wait                 
+14:10:15.217 NINA wait                 
+14:10:15.232 NINA wait                 
+14:10:15.247 NINA wait                 
+14:10:15.247 Temperature               27.5(27.5#)
+14:10:15.248 CommandString             Command: IS#
+14:10:15.262 NINA wait                 
+14:10:15.262 IsMoving                  False(0#)
+14:10:15.263 TempCompAvailable         True
+14:10:15.263 CommandString             Command: TG#
+14:10:15.277 TempCompAvailable         False(0#)
+14:10:15.277 NINA wait                 
+14:10:15.293 CommandBlind              Command: MO2000#
+14:10:15.295 CommandString             Command: IS#
+14:10:15.323 IsMoving                  True(1#)
+14:10:16.329 CommandString             Command: IS#
+14:10:16.359 IsMoving                  True(1#)
+14:10:17.093 CommandString             Command: PO#
+14:10:17.152 Position                  1070(1070#)
+14:10:17.153 CommandString             Command: TE#
+14:10:17.214 Temperature               27.5(27.5#)
+14:10:17.215 CommandString             Command: IS#
+14:10:17.230 IsMoving                  True(1#)
+14:10:17.231 TempCompAvailable         True
+14:10:17.231 CommandString             Command: TG#
+14:10:17.245 TempCompAvailable         False(0#)
+14:10:17.337 CommandString             Command: IS#
+14:10:17.367 IsMoving                  True(1#)
+14:10:18.339 CommandString             Command: IS#
+14:10:18.363 IsMoving                  True(1#)
+14:10:19.104 CommandString             Command: PO#
+14:10:19.164 Position                  1322(1322#)
+14:10:19.165 CommandString             Command: TE#
+14:10:19.241 Temperature               27.5(27.5#)
+14:10:19.241 CommandString             Command: IS#
+14:10:19.271 IsMoving                  True(1#)
+14:10:19.272 TempCompAvailable         True
+14:10:19.272 CommandString             Command: TG#
+14:10:19.301 TempCompAvailable         False(0#)
+14:10:19.333 CommandString             Command: IS#
+14:10:19.355 IsMoving                  True(1#)
+14:10:20.322 CommandString             Command: IS#
+14:10:20.348 IsMoving                  True(1#)
+14:10:21.104 CommandString             Command: PO#
+14:10:21.178 Position                  1572(1572#)
+14:10:21.179 CommandString             Command: TE#
+14:10:21.254 Temperature               27.5(27.5#)
+14:10:21.255 CommandString             Command: IS#
+14:10:21.284 IsMoving                  True(1#)
+14:10:21.285 TempCompAvailable         True
+14:10:21.286 CommandString             Command: TG#
+14:10:21.315 TempCompAvailable         False(0#)
+14:10:21.316 CommandString             Command: IS#
+14:10:21.345 IsMoving                  True(1#)
+14:10:22.325 CommandString             Command: IS#
+14:10:22.355 IsMoving                  True(1#)
+14:10:23.106 CommandString             Command: PO#
+14:10:23.165 Position                  1822(1822#)
+14:10:23.166 CommandString             Command: TE#
+14:10:23.241 Temperature               27.5(27.5#)
+14:10:23.242 CommandString             Command: IS#
+14:10:23.272 IsMoving                  True(1#)
+14:10:23.273 TempCompAvailable         True
+14:10:23.273 CommandString             Command: TG#
+14:10:23.303 TempCompAvailable         False(0#)
+14:10:23.334 CommandString             Command: IS#
+14:10:23.363 IsMoving                  True(1#)
+14:10:24.344 CommandString             Command: IS#
+14:10:24.373 IsMoving                  True(1#)
+14:10:25.107 CommandString             Command: PO#
+14:10:25.168 Position                  2000(2000#)
+14:10:25.169 CommandString             Command: TE#
+14:10:25.229 Temperature               27.5(27.5#)
+14:10:25.230 CommandString             Command: IS#
+14:10:25.260 IsMoving                  False(0#)
+14:10:25.260 TempCompAvailable         True
+14:10:25.260 CommandString             Command: TG#
+14:10:25.290 TempCompAvailable         False(0#)
+14:10:25.352 CommandString             Command: IS#
+14:10:25.381 IsMoving                  False(0#)
+14:10:25.384 CommandString             Command: PO#
+14:10:25.458 Position                  2000(2000#)
+14:10:25.459 CommandString             Command: PO#
+14:10:25.519 Position                  2000(2000#)
+14:10:27.108 CommandString             Command: PO#
+14:10:27.167 Position                  2000(2000#)
+14:10:27.168 CommandString             Command: TE#
+14:10:27.228 Temperature               27.5(27.5#)
+14:10:27.229 CommandString             Command: IS#
+14:10:27.259 IsMoving                  False(0#)
+14:10:27.259 TempCompAvailable         True
+14:10:27.261 CommandString             Command: TG#
+14:10:27.289 TempCompAvailable         False(0#)
+14:10:28.849 Connected Set             Disconnecting from device
