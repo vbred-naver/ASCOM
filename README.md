@@ -33,6 +33,7 @@
 ![set1](https://github.com/vbred-naver/ASCOM/assets/170990692/a5bb84db-dcec-4487-b9ba-7ae66da71860)
 ![set2](https://github.com/vbred-naver/ASCOM/assets/170990692/bed26120-0a8e-4c08-9611-f01b4adc252d)
 ![set3](https://github.com/vbred-naver/ASCOM/assets/170990692/e64a1083-0b6d-48ef-a1c5-656af2032752)
+![nina fo1](https://github.com/vbred-naver/ASCOM/assets/170990692/4dfb5d7b-721c-47a6-bb03-e2b3fcd7728b)
 
 
 다음의 포커서 관련 자료로 blog를 참조해 주세요.<br>
