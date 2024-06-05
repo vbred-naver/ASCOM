@@ -29,7 +29,8 @@
 ![bracket![dwg1](https://github.com/vbred-naver/ASCOM/assets/170990692/9131f7ec-c466-4c94-91be-c51fbfad48d9)
 ![dwg5](https://github.com/vbred-naver/ASCOM/assets/170990692/77b5dccd-4651-4064-a8b9-f34c715d91dd)
 
-1](https://github.com/vbred-naver/ASCOM/assets/170990692/2bb446c3-ad36-4236-986f-2bde1402e50b)
+![bracket1](https://github.com/vbred-naver/ASCOM/assets/170990692/2d927262-80cc-4d7b-aac3-09b4c120af07)
+
 ![set1](https://github.com/vbred-naver/ASCOM/assets/170990692/a5bb84db-dcec-4487-b9ba-7ae66da71860)
 ![set2](https://github.com/vbred-naver/ASCOM/assets/170990692/bed26120-0a8e-4c08-9611-f01b4adc252d)
 ![set3](https://github.com/vbred-naver/ASCOM/assets/170990692/e64a1083-0b6d-48ef-a1c5-656af2032752)
